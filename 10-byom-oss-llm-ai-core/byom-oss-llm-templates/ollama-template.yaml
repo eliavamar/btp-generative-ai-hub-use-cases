@@ -24,8 +24,8 @@ spec:
       predictor:
         imagePullSecrets:
         - name: docker-secret
-        minReplicas: 4
-        maxReplicas: 1
+        minReplicas: 1
+        maxReplicas: 4
         containers:
         - name: kserve-container
           image: docker.io/eliavamar/ollama:ai-core
