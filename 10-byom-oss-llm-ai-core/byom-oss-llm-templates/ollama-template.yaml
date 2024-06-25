@@ -24,7 +24,7 @@ spec:
       predictor:
         imagePullSecrets:
         - name: docker-secret
-        minReplicas: 1
+        minReplicas: 4
         maxReplicas: 1
         containers:
         - name: kserve-container
